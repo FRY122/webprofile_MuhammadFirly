@@ -1,0 +1,647 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 50px;
+    background-color: rgba(30, 30, 31, 0.514);
+    padding: 5px 7%;
+    z-index: 100;
+}
+
+nav ul
+{
+   display: flex;
+}
+
+nav ul li a
+{
+    margin: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 650;
+}
+
+nav ul li a:hover
+{
+    background-color: rgb(12, 12, 12);
+    color: rgb(244, 248, 248);
+    border-radius: 5px;
+}
+
+.logo
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Home */
+#Home
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/1.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Home p
+{
+    line-height: 30px;
+    margin: 45px;
+    width: 80%;
+}
+
+.Home p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    position: relative;
+    left: 4%;
+}
+
+.Home p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: none;
+    font-size: 50px;
+    position: relative;
+    left: 4%;
+}
+
+.Home p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    line-height: 50px;
+    position: relative;
+    left: 4%;
+}
+
+.Home
+{
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 30%;
+    width: 90%;
+}
+
+.Pc
+{ 
+    width: 650px;
+    height: auto;
+    position: absolute;
+    left: 93%;
+    top:-20%;
+    transform: translateX(-60%);
+}
+
+/* About */
+.About
+{
+    height: 65vh;
+    padding: 5% 10% 10%;
+    background-image: url(assets/2.png);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.About-desc
+{
+    margin: 50px 50px;
+    padding: 0px;
+}
+
+.About-desc p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.About-desc p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Box-container
+{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.Box-1
+{
+    width: 500px;
+    height: 400px;
+    box-shadow: 7px 15px 20px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.Box-2
+{
+    width: 500px;
+    height: 310px;
+    box-shadow: 7px 15px 20px rgba(13, 14, 13, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.Box-1 span, .Box-2 span
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Box-1 p:nth-child(2), .Box-2 p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: black;
+    width: 500px;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+}
+
+.Box-1 p:nth-child(3), .Box-1 p:nth-child(4), .Box-1 p:nth-child(5)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    width: 500px;
+    margin: 0px 0px 30px 0px;
+    line-height: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.Box-2 p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    width: 500px;
+    margin: 0px 0px 50px 0px;
+}
+
+
+/* History */
+#History
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(assets/3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.H
+{
+    height: 50vh;
+    padding: 2% 10% 60%; 
+}
+
+.H-1
+{
+    flex: 50%;
+    margin: 10px;
+    padding: 0px;
+    line-height: 10px; 
+}
+
+.H-1 p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.H-1 p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.I
+{
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+}
+
+.J
+{
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+}
+
+.K
+{
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+}
+
+
+.I .Column1 h2
+{
+  text-align: center;  
+  font-size: 30px;
+  line-height: 0px;
+  margin: 20px;
+  color: black;
+}
+
+.J .Column2 h2
+{
+  text-align: center;  
+  font-size: 30px;
+  line-height: 0px;
+  margin: 0px;
+  color: black;
+}
+
+.K .Column3 h2
+{
+  text-align: center;  
+  font-size: 30px;
+  line-height: 0px;
+  margin: 0px;
+  color: black;
+}
+
+.I .Column1 p
+{
+    text-align: justify;
+}
+
+.I .Column1 p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    text-align: center;
+}
+
+.I .Column1 p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    text-align: center;
+}
+
+.I .Column1 p:nth-child(4)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    text-align: center;
+}
+
+.I .Column1 p:nth-child(5)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    text-align: center;
+}
+
+.I .Column1 p:nth-child(6)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    text-align: center;
+}
+
+.J .Column2 p
+{
+    text-align: center;
+}
+
+.J .Column2 p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.J .Column2 p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.J .Column2 p:nth-child(4)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.J .Column2 p:nth-child(5)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.K .Column3 p
+{
+    text-align: center;
+}
+
+.K .Column3 p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+.K .Column3 p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+.K .Column3 p:nth-child(4)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+.K .Column3 p:nth-child(5)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+.K .Column3 p:nth-child(6)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+.K .Column3 p:nth-child(7)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+.K .Column3 p:nth-child(8)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+.K .Column3 p:nth-child(9)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.Column1
+{
+    flex: 50%;
+    padding: -60px;
+    height: 100px;
+}
+
+.Column2
+{
+    flex: 50%;
+    padding: 90px;
+    height: 0px;
+}
+
+.Column3
+{
+    flex: 50%;
+    padding: 0px;
+    height: 0px;
+}
+
+
+
+
+/* Contact */
+.Contact
+{
+    height: 75vh;
+    background-image: url(assets/4.jpg);
+    padding: 4% 15% 20%;
+    background-size: cover;
+}
+
+.Contact-desc
+{
+    margin: 50px 50px;
+}
+
+.Contact-desc p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Contact-desc p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+label
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+input[type=submit]:hover
+{
+    background-color: black;
+    color: white;
+    padding: 20px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background-color: rgb(14, 13, 13);
+}
+
+input:active
+{
+    transform: scale(1);
+}
+
+/* Footer */
+footer
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(103, 243, 173, 0.753) ;
+}
+
+footer p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    line-height: 50px;
+}
+
+footer p:nth-child(2)
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    line-height: 0px;
+}
+
+footer p:nth-child(3)
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    line-height: 0px;
+}
+
+.Ikon
+{
+   margin: 30px 5px;
+   display: flex; 
+   text-align: center;
+   padding-bottom: 5px;
+}
+
+
+.Ikon a
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: rgb(151, 144, 144);
+    border-radius: 50%;
+}
+
+.Ikon i
+{
+    font-size: 50px;
+    color: black;
+}
+
+.Ikon a:hover
+{
+    background-color: rgb(238, 233, 233);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
